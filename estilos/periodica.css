@@ -25,6 +25,10 @@ h1 {
   padding-bottom: 50px;
 }
 
+#frame {
+  padding: 2px;
+}
+
 td {
   position: relative;
   /*border: 1px solid rgba(0, 0, 0, 0.20);*/
@@ -126,4 +130,10 @@ td {
 div#container {
   width: 85vw;
   overflow-x: auto;
+}
+
+iframe {
+  /*box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.80);*/
+  width: 600px;
+  height: 155px;
 }

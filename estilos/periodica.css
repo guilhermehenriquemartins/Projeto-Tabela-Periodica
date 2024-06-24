@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root {
+  --fontetitulo: "Roboto", sans-serif;
+  --fontetabela: "Open Sans", sans-serif;
+}
+
+* {
+  font-family: var(--fontetitulo);
+  margin: auto;
+}
+
+body {
+  padding-bottom: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(75, 75, 75);
+  padding-bottom: 50px;
+}
+
+td {
+  position: relative;
+  /*border: 1px solid rgba(0, 0, 0, 0.20);*/
+  font: normal bold 1em var(--fontetabela);
+  border-radius: 2px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nao-metais {
+  background-color: #A1D344;
+}
+
+.nao-metais:hover {
+  background-color: #88b339;
+}
+
+.metais-alcalino-terrosos {
+  background-color: #EADA00;
+}
+
+.metais-alcalino-terrosos:hover {
+  background-color: #cdbf00;
+}
+
+.halogenios {
+  background-color: #70CBEB;
+}
+
+.halogenios:hover {
+  background-color: #62b1cd;
+}
+
+.lantanideos {
+  background-color: #90E3E9;
+}
+
+.lantanideos:hover {
+  background-color: #7ac0c5;
+}
+
+.gases-nobres {
+  background-color: #3D9EE3;
+}
+
+.gases-nobres:hover {
+  background-color: #3589c5;
+}
+
+.semimetais {
+  background-color: #4DB6AC;
+}
+
+.semimetais:hover {
+  background-color: #40978e;
+}
+
+.outros-metais {
+  background-color: #A2C7D3;
+}
+
+.outros-metais:hover {
+  background-color: #8aa9b4;
+}
+
+.actinidios {
+  background-color: #DCADD6;
+}
+
+.actinidios:hover {
+  background-color: #bd94b8;
+}
+
+.metais-alcalinos {
+  background-color: #F1B200;
+}
+
+.metais-alcalinos:hover {
+  background-color: #d19a01;
+}
+
+.metais-de-transicao {
+  background-color: #EB8E8E;
+}
+
+.metais-de-transicao:hover {
+  background-color: #c77878;
+}
+
+.number {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  font-weight: lighter;
+  font-size: .6em;
+}
+
+div#container {
+  width: 85vw;
+  overflow-x: auto;
+}

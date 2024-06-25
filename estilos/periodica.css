@@ -29,6 +29,10 @@ h1 {
   padding: 2px;
 }
 
+table {
+  border-collapse: separate;
+}
+
 td {
   position: relative;
   /*border: 1px solid rgba(0, 0, 0, 0.20);*/
@@ -37,6 +41,21 @@ td {
   padding: 15px;
   text-align: center;
   cursor: pointer;
+}
+
+td > a {
+  position: absolute;
+  color: black;
+  text-decoration: none;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.letra {
+  display: block;
+  line-height: 50px;
 }
 
 .nao-metais {
@@ -132,8 +151,13 @@ div#container {
   overflow-x: auto;
 }
 
+.espaco {
+  height: 1px;
+}
+
 iframe {
   /*box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.80);*/
-  width: 600px;
-  height: 155px;
+  width: 700px;
+  height: 170px;
+  margin-bottom: -7px;
 }
